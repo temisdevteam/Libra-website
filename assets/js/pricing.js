@@ -1,0 +1,1 @@
+$(".change-theme-input").click(changeThemeColor);

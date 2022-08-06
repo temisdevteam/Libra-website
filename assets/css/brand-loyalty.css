@@ -1,0 +1,425 @@
+/* FIRST SECTION */
+
+.first-section .section-p {
+  padding-top: 24px;
+}
+.first-section-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 58px;
+}
+
+.play-button {
+  width: 180px;
+  height: 40px;
+  background-image: url(../img/form-send-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #e28b3c;
+  border-radius: 10px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.play-button img {
+  width: 20px;
+  padding-left: 8px;
+}
+
+/* -------- */
+
+/* APPROACH SECTION */
+.approach-section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  padding: 44px 0 36px;
+}
+
+/* -------- */
+
+/* CIRCLE CENTER CHART SECTION */
+.circle-center-chart{
+  background-color: #fff;
+}
+.circle-center-chart img {
+  width: 100%;
+}
+
+.circle-center-chart-section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+  margin: auto;
+  transform: translateY(40px);
+}
+
+/* -------- */
+
+/* USE LAPTOP SECTION */
+
+.use-laptop-section {
+  background-image: url("../img/use-laptop.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center center;
+  padding: 80px 0;
+}
+
+.use-laptop-section .section-title {
+  padding-top: 8px;
+}
+
+.use-laptop-section .section-normal-p {
+  padding-top: 24px;
+  word-spacing: -0.07em;
+}
+
+.use-laptop-section-box {
+  background: linear-gradient(
+    154.55deg,
+    rgba(45, 44, 44, 0.6) -23.46%,
+    rgba(23, 23, 23, 0.6) 106.21%
+  );
+  box-shadow: 0px 8px 9px rgba(0, 0, 0, 0.25);
+  backdrop-filter: blur(15px);
+  border-radius: 30px;
+  height: 150px;
+  padding: 0 33px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.use-laptop-section-box-light {
+  background: linear-gradient(
+    180deg,
+    rgba(217, 213, 213, 0.5) 0%,
+    rgba(197, 197, 197, 0.5) 100%
+  );
+}
+
+.use-laptop-section-box:first-of-type {
+  margin-top: 0;
+}
+
+.use-laptop-section-box-p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+
+.use-laptop-section-box-p strong {
+  font-weight: 900;
+}
+
+.use-laptop-section .box-part {
+  padding-left: 42px;
+}
+
+/* -------- */
+
+/* INTEGRATED ACROSS SECTION */
+.integrated-across-section {
+  padding-top: 60px;
+}
+.integrated-across-section .integrated-across-section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  text-align: center;
+}
+.integrated-across-section .integrated-across-card {
+  background: linear-gradient(97.57deg, #2b2b2b 31.49%, #1b1b1b 113.66%);
+  border-radius: 20px;
+  padding: 20px 0;
+  height: 202px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.integrated-across-section .integrated-across-card-light {
+  background: linear-gradient(180deg, #d9d5d5 0%, #c5c5c5 100%);
+}
+.integrated-across-flex .integrated-across-card-parent {
+  padding: 0 10px;
+}
+.integrated-across-section .integrated-across-card-title {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 22px;
+  letter-spacing: 0.05em;
+  text-align: center;
+  display: block;
+}
+.integrated-across-section .integrated-across-card img {
+  display: flex;
+  margin: 0 auto;
+}
+.integrated-across-section .integrated-across-flex {
+  padding-top: 68px;
+}
+
+.integrated-across-flex .integrated-across-card-parent {
+  position: relative;
+}
+.integrated-across-flex .integrated-across-card-parent::after {
+  position: absolute;
+  content: "";
+  background-image: url("../img/brand-loyalty/orange-up-arrow.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 28px;
+  height: 50px;
+  bottom: -40px;
+  left: calc(50% - 14px);
+}
+.integrated-across-flex:last-of-type .integrated-across-card-parent::after {
+  bottom: unset;
+  top: -40px;
+  transform: rotate(180deg);
+}
+.integrated-across-section .integrated-across-flex:last-of-type {
+  padding-top: 38px;
+}
+/* -------- */
+
+/* HAND SECTION */
+
+.hand-section {
+  margin-top: 138px;
+  background-image: url("../img/brand-loyalty/hand.png");
+  background-size: 48% auto;
+  background-repeat: no-repeat;
+  background-position: right center;
+  padding-bottom: 6px;
+}
+.hand-section-light {
+  background-image: url("../img/brand-loyalty/hand-light.png");
+}
+.hand-section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.hand-section-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: justify;
+  padding-top: 36px;
+}
+
+/* -------- */
+
+/* EARTH SECTION */
+
+.earth-section {
+  padding-top: 126px;
+}
+
+.earth-section-title {
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+}
+.earth-section-p {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  padding-top: 36px;
+}
+
+.earth-section-p strong {
+  font-weight: 900;
+}
+
+/* -------- */
+@media (min-width: 992px) {
+  /* INTEGRATED ACROSS SECTION */
+  .integrated-across-section-img {
+    width: 77%;
+    margin: 34px auto 0;
+    display: flex;
+  }
+  /* -------- */
+
+  /* EARTH SECTION */
+  .earth-section .image-part {
+    margin-left: -6%;
+  }
+  /* -------- */
+
+}
+@media (max-width: 768px) {
+  /* FIRST SECTION */
+
+  .play-button {
+    margin-top: 10px;
+    width: 124px;
+    height: 34px;
+    font-size: 16px;
+  }
+
+  .play-button img {
+    width: 20px;
+    height: 20px;
+    margin-left: 2px;
+  }
+  .first-section-title {
+    font-size: 40px;
+    line-height: 48px;
+  }
+  .first-section .section-p {
+    padding-top: 16px;
+  }
+  .first-section .image-part {
+    padding-top: 24px;
+  }
+  /* -------- */
+
+  /* USE LAPTOP SECTION */
+
+  .use-laptop-section {
+    background-position: center 112%;
+    background-size: 100% 60%;
+    padding: 20px 0 40px;
+  }
+
+  .use-laptop-section-box-p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.05em;
+  }
+
+  .use-laptop-section-box {
+    padding: 42px 18px;
+    border-radius: 19px;
+    height: unset;
+  }
+
+  .use-laptop-section .section-normal-p {
+    padding-top: 25px;
+  }
+
+  .use-laptop-section-box-swiper {
+    padding-top: 48px;
+    padding-left: 46px;
+  }
+
+  .use-laptop-section .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .use-laptop-section .text-part {
+    padding-left: var(--container-pl);
+    padding-right: var(--container-pr);
+  }
+
+  /* -------- */
+
+  /* INTEGRATED ACROSS SECTION */
+  .integrated-across-section .integrated-across-card img {
+    display: none;
+  }
+  .integrated-across-section .integrated-across-card {
+    height: unset;
+  }
+  .integrated-across-section .integrated-across-section-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  .integrated-across-flex .integrated-across-card-parent {
+    padding: 32px 10px 0;
+  }
+  .integrated-across-flex .integrated-across-card-parent::after {
+    width: 20px;
+    height: 38px;
+  }
+  .integrated-across-flex:last-of-type .integrated-across-card-parent::after {
+    top: -5px;
+  }
+  .integrated-across-section .integrated-across-card-title {
+    font-size: 16px;
+  }
+  .integrated-across-section .integrated-across-card {
+    padding: 10px 0;
+  }
+  .integrated-across-section-img {
+    margin-top: 38px;
+  }
+  .integrated-across-section .integrated-across-flex:last-of-type,
+  .integrated-across-section .integrated-across-flex {
+    padding-top: 0;
+  }
+  /* -------- */
+
+  /* HAND SECTION */
+
+  .hand-section {
+    background-image: unset;
+  }
+  .hand-section-title {
+    font-size: 24px;
+    line-height: 26px;
+  }
+  .hand-section-p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 16px;
+  }
+  /* -------- */
+
+  /* EARTH SECTION */
+
+  .earth-section {
+    padding-left: 0 !important;
+    margin-top: 60px;
+  }
+
+  .earth-section .image-part {
+    margin-left: -98px;
+    width: 260px;
+  }
+
+  .earth-section-title {
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .earth-section-p {
+    font-size: 14px;
+    line-height: 22px;
+    padding-top: 12px;
+  }
+
+  .earth-section .text-part {
+    padding-left: 16px;
+  }
+  /* -------- */
+  /* APPROACH SECTION */
+  .approach-section-title {
+    font-size: 28px;
+    line-height: 32px;
+  }
+  /* CIRCLE CENTER CHART SECTION */
+  .circle-center-chart-section-title{
+    font-size: 28px;
+    line-height: 32px;
+  }
+
+  
+}

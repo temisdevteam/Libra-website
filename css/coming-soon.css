@@ -1,0 +1,40 @@
+.coming-soon-section {
+  padding-top: 100px;
+  background-image: url("../img/coming-soon/coming-soon-img.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 60%;
+}
+.coming-soon-section-light {
+  background-image: url("../img/coming-soon/coming-soon-img-light.png");
+}
+.coming-soon-section-title {
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 48px;
+}
+.main-footer {
+  margin-top: -30px;
+}
+
+@media (min-width: 992px) {
+  .coming-soon-section {
+    min-height: 665px;
+  }
+}
+@media (max-width: 768px) {
+    .coming-soon-section{
+        padding-top: 10px;
+        background-size: 60%;
+        min-height: 400px;
+    }
+    .coming-soon-section-title{
+        font-size: 32px;
+    }
+}
+@media (max-width: 575px) {
+    .coming-soon-section{
+        background-size: 80%;
+        min-height: 310px;
+    }
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Lix Marketplace</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+      crossorigin="anonymous"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.css"
+      integrity="sha512-dlzxoRxU0/ZfgAUFn+8LwmuvNCrVZ3gnPedd8c3m5YwEq1bory6yFCt3uOzDTxnY4fTqVpM0Twxcn8scmBvuQg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/css/global.css" />
+    <link rel="stylesheet" href="./assets/css/lix-marketplace.css" />
+  </head>
+
+  <body>
+    <header class="main-header">
+      <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <div class="navbar-brand-parent">
+            <a class="navbar-brand" href="#"
+              ><img class="dark-vis" src="./assets/img/logo.png" /><img
+                class="light-vis"
+                src="./assets/img/logo-light.png"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <!-- <span class="navbar-toggler-icon"></span> -->
+            <img src="./assets/img/hamber-menu.png" />
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="nav-link dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton1"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Our Solutions
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton1"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./brand-loyalty.html"
+                        >Brand Loyalty</a
+                      >
+                    </li>
+                    <li>
+                      <a class="dropdown-item" href="./employee-rewards.html"
+                        >Employee Rewards</a
+                      >
+                    </li>
+                    <li><a class="dropdown-item" href="#">App Platform</a></li>
+                    <li>
+                      <a
+                        class="dropdown-item"
+                        href="./consultant-as-a-service.html"
+                        >Consultant as a service</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#loyalty">Loyalty</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./lix-marketplace.html"
+                  >Marketplace</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./pricing.html">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="nav-link dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton2"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    LIXX Token
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton2"
+                  >
+                    <li><a class="dropdown-item" href="#">White Paper</a></li>
+                    <li><a class="dropdown-item" href="#">Tokenomics</a></li>
+                    <li>
+                      <a class="dropdown-item" href="./lixx-token.html#roadMap"
+                        >Roadmap</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./press.html">Press</a>
+              </li>
+              <li class="nav-item">
+                <div class="dropdown">
+                  <button
+                    class="nav-link dropdown-toggle"
+                    type="button"
+                    id="dropdownMenuButton3"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Contact Us
+                  </button>
+                  <ul
+                    class="dropdown-menu"
+                    aria-labelledby="dropdownMenuButton3"
+                  >
+                    <li>
+                      <a class="dropdown-item" href="./index.html#team">Team</a>
+                    </li>
+                    <li><a class="dropdown-item" href="#">Mission</a></li>
+                  </ul>
+                </div>
+              </li>
+            </ul>
+            <div class="d-lg-flex header-buttons-flex">
+              <div class="change-theme-button-parent">
+                <label class="switch">
+                  <input class="change-theme-input" type="checkbox" checked />
+                  <span class="slider round"></span>
+                </label>
+              </div>
+              <div class="header-buttons-parent">
+                <a class="register-button">REGISTER</a>
+                <a class="login-button">LOG IN</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main role="main">
+      <section class="lix-marketplace-first-section">
+        <div
+          class="container d-lg-flex align-items-center lix-marketplace-first-section-flex"
+        >
+          <div class="col-lg-6">
+            <h1 class="first-section-title">LIX Marketplace</h1>
+            <p class="section-p">
+              Libra Incentix enables its customers to secure committed customer
+              engagement and long-term loyalty using blockchain technology. The
+              LIX loyalty management system is for building new loyalty programs
+              or revamping existing ones
+            </p>
+            <a href="https://youtu.be/iIcPLCBTchs" class="play-button"
+              >Watch<img src="./assets/img/new-play-button.png"
+            /></a>
+          </div>
+          <div class="col-lg-6">
+            
+          </div>
+        </div>
+      </section>
+
+      <section class="lix-marketplace-second-section container d-lg-flex justify-content-center align-items-start">
+        <div class="col-lg-6">
+            <img src="./assets/img/lix-marketplace/sell-icon.png">
+            <p class="section-p">LIX have recently partnered with B2B and B2C eCommerce platforms and will work with new applications with ambitions to penetrate the market. LIX users are directed to their applications, thereby raising awareness and offering a new customer base.</p>
+        </div>
+        <div class="col-lg-6">
+            <img src="./assets/img/lix-marketplace/commercial-icon.png">
+            <p class="section-p">Our partners use the LIX market place for free, to find new users, gain exposure and combat competition. In exchange, they accept LIX tokens as discounts on their services.</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <div
+        class="container d-flex align-items-center flex-column-reverse flex-lg-row"
+      >
+        <div class="text-part col-lg-6">
+          <img class="dark-vis logo-footer" src="./assets/img/logo.png" />
+          <img
+            class="light-vis logo-footer"
+            src="./assets/img/logo-light-footer.png"
+          />
+          <p class="section-normal-p">
+            LIXX is a utility rewards token used to incentive positive human
+            interactions
+          </p>
+
+          <ul class="footer-ul d-lg-flex">
+            <div class="left-part">
+              <li><a href="#whatIsLix">What is LIX</a></li>
+              <li><a href="#">Solutions</a></li>
+              <li><a href="#">Whitepaper</a></li>
+            </div>
+            <div class="right-part">
+              <li><a href="./lixx-token.html#roadMap">Roadmap</a></li>
+              <li><a href="./index.html#team">Team</a></li>
+            </div>
+          </ul>
+
+          <hr />
+          <p class="footer-copy-right-text">Copyright © 2022, Libra Incentix</p>
+        </div>
+
+        <div class="form-part col-lg-6 d-flex justify-content-end">
+          <div class="footer-form-box">
+            <h2 class="section-title">Contact us</h2>
+            <form class="footer-form">
+              <div class="d-flex">
+                <input
+                  class="footer-form-input"
+                  placeholder="Name & Surname"
+                  type="text"
+                />
+                <input
+                  class="footer-form-input"
+                  placeholder="Email Address"
+                  type="email"
+                />
+              </div>
+              <div class="footer-form-textarea-parent">
+                <textarea
+                  class="footer-form-textarea"
+                  placeholder="Message..."
+                  rows="5"
+                ></textarea>
+                <button class="footer-form-submit">
+                  <img src="./assets/img/form-send-img.png" />
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.0.6/swiper-bundle.min.js"
+        integrity="sha512-4w/aaXboO6KY1E/dqYwfq09sZnM+XDIcWvmHhfxvMQ+qwK84kxgWtNkAqbFNMLYd6EYA3nSgxTSyif/D3vlVMg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+      ></script>
+
+      <script
+        src="https://cdnjs.cloudflare.com/ajax/libs/Readmore.js/2.2.1/readmore.min.js"
+        integrity="sha512-HzK/KDSaVfdeH8AynloB8uceDESseASuyy/tOU/2fM3lDJlQN289yZ6UsB9p7EFRpGnDRg49p3UKGfE7ulr2Vg=="
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+      ></script>
+      <script
+        type="text/javascript"
+        src="./assets/js/lix-marketplace.js"
+        defer
+      ></script>
+      <script type="text/javascript" src="./assets/js/global.js" defer></script>
+    </footer>
+  </body>
+</html>
